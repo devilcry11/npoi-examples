@@ -1,6 +1,9 @@
 # NPOI Examples
 
-This repository is splitted from NPOI major repository in order to manage the examples easily.
+This repository is splitted from [NPOI master repository](https://github.com/nissl-lab/npoi) in order to manage the examples easily.
+
+# To Get Started with NPOI
+CalendarDemo is a good example for you to get started with NPOI. Check [here](https://github.com/nissl-lab/npoi-examples/tree/main/ss/CalendarDemo)
 
 # Folders Explained
 |Folder Name| Description|

@@ -11,3 +11,5 @@ This repository is splitted from NPOI major repository in order to manage the ex
 |XSSF |Excel 2007(xlsx) examples|
 |XWPF |Word 2007(docx) examples|
 |OOXML|OpenXml format low-level examples|
+|ScratchPad/HWPF|Word 2003(doc) examples|
+

@@ -31,3 +31,4 @@ _Conclusion_: The result of Calendar.xls and Calendar.xlsx looks same in Microso
 |OOXML|OpenXml format low-level examples|
 |ScratchPad/HWPF|Word 2003(doc) examples|
 
+[![Analytics](https://ga-beacon.appspot.com/UA-39118634-1/npoi-examples)](https://github.com/tonyqus/npoi)

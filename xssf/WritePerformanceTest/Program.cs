@@ -66,7 +66,7 @@ class Program
             }
             Console.WriteLine("End at " + DateTime.Now.ToString());
 
-            FileStream sw = File.Create("test.xls");
+            FileStream sw = File.Create("test.xlsx");
             workbook.Write(sw);
             sw.Close();
 

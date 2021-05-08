@@ -2,6 +2,9 @@
 
 This repository is splitted from [NPOI master repository](https://github.com/nissl-lab/npoi) in order to manage the examples easily.
 
+# Telegram User Group
+Join us on telegram: https://t.me/npoidevs
+
 # To Get Started with NPOI (on Windows 10)
 1. Open PowerShell and run the following command:
 ```

@@ -2,6 +2,9 @@
 
 This repository is splitted from [NPOI master repository](https://github.com/nissl-lab/npoi) in order to manage the examples easily.
 
+# Telegram User Group
+Join us on telegram: https://t.me/npoidevs
+
 # To Get Started with NPOI (on Windows 10)
 1. Open PowerShell and run the following command:
 ```
@@ -31,3 +34,4 @@ _Conclusion_: The result of Calendar.xls and Calendar.xlsx looks same in Microso
 |OOXML|OpenXml format low-level examples|
 |ScratchPad/HWPF|Word 2003(doc) examples|
 
+[![Analytics](https://ga-beacon.appspot.com/UA-39118634-1/npoi-examples)](https://github.com/nissl-lab/npoi-examples)

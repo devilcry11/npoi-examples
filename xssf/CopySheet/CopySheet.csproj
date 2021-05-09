@@ -10,9 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="default.xlsx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="file1.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

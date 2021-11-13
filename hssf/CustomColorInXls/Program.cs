@@ -16,13 +16,12 @@
 ==================================================================== */
 
 /* ================================================================
- * Author: Tony Qu 
- * Author's email: tonyqus (at) gmail.com 
+ * Author: Tony Qu
+ * Author's email: tonyqus (at) gmail.com
  * NPOI HomePage: http://www.codeplex.com/npoi
  * Contributors:
- * 
+ *
  * ==============================================================*/
-
 
 using NPOI.HPSF;
 using NPOI.HSSF.UserModel;
@@ -32,11 +31,11 @@ using System.IO;
 
 namespace CustomColorInXls
 {
-    class Program
+    internal class Program
     {
-        static HSSFWorkbook workbook;
+        private static HSSFWorkbook workbook;
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             InitializeWorkbook();
 
@@ -47,13 +46,13 @@ namespace CustomColorInXls
             ISheet sheet1 = workbook.CreateSheet("Sheet1");
             ICellStyle style1 = workbook.CreateCellStyle();
             style1.FillForegroundColor = NPOI.HSSF.Util.HSSFColor.Pink.Index;
-            style1.FillPattern = FillPatternType.SolidForeground;
+            //style1.FillPattern = FillPatternType.SolidForeground;
             sheet1.CreateRow(0).CreateCell(0).CellStyle = style1;
 
             WriteToFile();
         }
 
-        static void WriteToFile()
+        private static void WriteToFile()
         {
             //Write the stream data of workbook to the root directory
             FileStream file = new FileStream(@"test.xls", FileMode.Create);
@@ -61,7 +60,7 @@ namespace CustomColorInXls
             file.Close();
         }
 
-        static void InitializeWorkbook()
+        private static void InitializeWorkbook()
         {
             workbook = new HSSFWorkbook();
 
